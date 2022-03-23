@@ -14,7 +14,7 @@ public class Radio {
     }
 
 
-    // Работа с радиостанциями:
+    // Работа с радиостанциями (station):
 
     public void setCurrentStation(int currentStation) {
         if (currentStation > 9) {
@@ -48,7 +48,7 @@ public class Radio {
     } //Переключаем на -1 станцию
 
 
-    // Работа с уровнем громкости звука:
+    // Работа с уровнем громкости звука (volume):
 
     public void setCurrentVolume(int currentVolume) {
         if (currentVolume > 10) {
